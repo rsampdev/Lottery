@@ -11,7 +11,7 @@ func play(userGuess: LotteryBalls) -> Int  {
     var userWinnings = 0
     
     if userGuess == lotteryBalls {
-        userWinnings = tenthOfLotteryJackpot
+        userWinnings = tenthOfLotteryJackpot * 10
     } else {
         if userGuess.ballOne == lotteryBalls.ballOne {
             userWinnings += tenthOfLotteryJackpot
