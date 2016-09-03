@@ -30,7 +30,7 @@ func play(userGuess: LotteryBalls) -> Int  {
         }
         
         if userOnlyGuessedThePowerball {
-            userWinnings += tenthOfLotteryJackpot / 10
+            userWinnings += tenthOfLotteryJackpot
         } else if userGuess.powerball == lotteryBalls.powerball {
             userWinnings *= 2
         }
